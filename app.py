@@ -32,12 +32,3 @@ class Stopwatch():
         if self.stop_time is not None and self.start_time is not None:
             print('Time recorded: ' +
                   str((self.stop_time - self.start_time).total_seconds())[:-7] + ' seconds')
-
-    def log_time_elapsed(self):
-        print('a second')
-        self.log_time_elapsed()
-
-
-my_stopwatch = Stopwatch()
-
-my_stopwatch.start_stopwatch()
